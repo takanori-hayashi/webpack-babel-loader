@@ -1,0 +1,20 @@
+{
+  "name": "webpack-babel",
+  "version": "1.0.0",
+  "description": "webpack-babel start",
+  "author": "takanori-hayashi",
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server --open --inline --hot",
+    "build": "webpack",
+    "build:production": "webpack --mode=production"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
